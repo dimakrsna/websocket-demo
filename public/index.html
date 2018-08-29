@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
+        <title>WebSocket</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <main class="chat-wrap">
+            <header class="header">
+               <h3 class="header__title">Connect status: <span class="js-status">OFFLINE</span></h3>
+            </header>
+            <div class="chat">
+                <ul class="chat__list js-messages"></ul>
+                <form class="chat__form js-form">
+                    <label class="chat__label" for="message">&gt;</label>
+                    <input class="chat__input js-input" type="text" required autofocus autocomplete="off">
+                </form>
+            </div>
+            <div class="chat__buttons">
+                <button class="btn js-btn-send">Send</button>
+                <button class="btn js-btn">Disconnect</button>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
