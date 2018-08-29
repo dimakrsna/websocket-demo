@@ -14,7 +14,7 @@ const APP = {};
 		attachEvents,
 		createWebSocket,
 		ws,
-		wsUri = 'ws://echo.websocket.org',
+		wsUri = 'wss://echo.websocket.org',
 		isConnected = true,
 		init;
 
